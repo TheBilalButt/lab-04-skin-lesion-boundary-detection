@@ -1,0 +1,9 @@
+Method,Noise Handling,Edge Quality,Boundary Detection,Overall Performance
+Original + Sobel,"Poor (High sensitivity to hair, pores & texture)","Thick, diffuse edges with severe noise clutter",Unreliable; perimeter drowned in background skin noise,Poor
+Original + Canny,Fair (Hysteresis suppresses isolated weak noise),Thin (1-pixel) but cluttered with micro-vessel artifacts,Fragmented; noisy false edges bridge into border,Moderate
+Average + Sobel,Moderate (Uniform spatial smoothing of speckle),"Blurred transitions, significant edge displacement",Imprecise; low contrast boundaries are washed out,Fair
+Average + Canny,Good (Box blur suppresses high-frequency noise),"Sharp edges, slight boundary position drift",Good; captures major contour with minor gaps,Good
+Gaussian + Sobel,Good (Isotropic frequency damping preserves gradients),"Smooth continuous response, but gradient edges remain thick",Fair to Good; requires empirical threshold tuning,Good
+Gaussian + Canny,Optimal (Gaussian smoothing + dual-threshold hysteresis),"Excellent; strictly thin, non-maximum suppressed edges","Superior; coherent, well-localized closed boundary",Best (Benchmark)
+Median + Sobel,Very Good (Non-linear rejection of salt-and-pepper / hair),Sharp step-edge preservation without gradient smearing,Good; robust against hair and epidermal pore noise,Very Good
+Median + Canny,Excellent (Exceptional hair/specular artifact rejection),"Thin, crisp edges with minimal spurious responses",Excellent; highly accurate boundary delineation,Excellent (Alternative)

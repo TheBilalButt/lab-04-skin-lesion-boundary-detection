@@ -1,0 +1,52 @@
+[
+  {
+    "Image": "Image 1",
+    "Diagnosis": "Melanoma (MEL)",
+    "ISIC_ID": "ISIC_0000029",
+    "Best Filter": "Gaussian (5x5, sigma=1.5)",
+    "Edge Method": "Canny (50-100)",
+    "Area (pixels)": 5289.5,
+    "Perimeter (pixels)": 1722.0,
+    "Circularity": 0.022
+  },
+  {
+    "Image": "Image 2",
+    "Diagnosis": "Melanocytic Nevus (NV)",
+    "ISIC_ID": "ISIC_0000039",
+    "Best Filter": "Gaussian (5x5, sigma=1.5)",
+    "Edge Method": "Canny (50-100)",
+    "Area (pixels)": 1979.0,
+    "Perimeter (pixels)": 508.8,
+    "Circularity": 0.096
+  },
+  {
+    "Image": "Image 3",
+    "Diagnosis": "Basal Cell Carcinoma (BCC)",
+    "ISIC_ID": "ISIC_0024665",
+    "Best Filter": "Gaussian (5x5, sigma=1.5)",
+    "Edge Method": "Canny (50-100)",
+    "Area (pixels)": 2445.5,
+    "Perimeter (pixels)": 630.6,
+    "Circularity": 0.077
+  },
+  {
+    "Image": "Image 4",
+    "Diagnosis": "Seborrheic Keratosis (BKL)",
+    "ISIC_ID": "ISIC_0010862",
+    "Best Filter": "Gaussian (5x5, sigma=1.5)",
+    "Edge Method": "Canny (50-100)",
+    "Area (pixels)": 9656.5,
+    "Perimeter (pixels)": 494.7,
+    "Circularity": 0.496
+  },
+  {
+    "Image": "Image 5",
+    "Diagnosis": "Dermatofibroma (DF)",
+    "ISIC_ID": "ISIC_0024973",
+    "Best Filter": "Gaussian (5x5, sigma=1.5)",
+    "Edge Method": "Canny (50-100)",
+    "Area (pixels)": 3837.5,
+    "Perimeter (pixels)": 527.7,
+    "Circularity": 0.173
+  }
+]

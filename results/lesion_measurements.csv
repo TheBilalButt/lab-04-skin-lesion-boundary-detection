@@ -1,0 +1,6 @@
+Image,Diagnosis,ISIC_ID,Best Filter,Edge Method,Area (pixels),Perimeter (pixels),Circularity
+Image 1,Melanoma (MEL),ISIC_0000029,"Gaussian (5x5, sigma=1.5)",Canny (50-100),5289.5,1722.0,0.022
+Image 2,Melanocytic Nevus (NV),ISIC_0000039,"Gaussian (5x5, sigma=1.5)",Canny (50-100),1979.0,508.8,0.096
+Image 3,Basal Cell Carcinoma (BCC),ISIC_0024665,"Gaussian (5x5, sigma=1.5)",Canny (50-100),2445.5,630.6,0.077
+Image 4,Seborrheic Keratosis (BKL),ISIC_0010862,"Gaussian (5x5, sigma=1.5)",Canny (50-100),9656.5,494.7,0.496
+Image 5,Dermatofibroma (DF),ISIC_0024973,"Gaussian (5x5, sigma=1.5)",Canny (50-100),3837.5,527.7,0.173
